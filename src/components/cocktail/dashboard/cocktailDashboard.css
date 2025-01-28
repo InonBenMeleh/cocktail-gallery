@@ -1,0 +1,45 @@
+
+.cocktails-dashboard-main-view-container {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    row-gap: 24px;
+}
+
+.cocktails-dashboard-top-bar-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+}
+
+.cocktails-dashboard-grid {
+    display: flex;
+    flex-wrap: wrap;  /* Allow wrapping of items */
+    gap: 16px;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    justify-content: flex-start;
+}
+
+.cocktails-dashboard-separator {
+    border: 1px solid #efefef;
+    box-sizing: content-box;
+    margin-top: 8px;
+    margin-bottom: 8px;
+ }
+
+.cocktails-dashboard-loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}

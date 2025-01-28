@@ -1,0 +1,11 @@
+
+.cocktail-details-image {
+    height: 240px;
+    width: 240px;
+    border-radius: 4px;
+}
+
+.cocktail-details-title {
+    color: #242424;
+    font-weight: 600;
+}

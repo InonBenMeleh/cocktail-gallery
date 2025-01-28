@@ -1,0 +1,18 @@
+.cocktail-create-page-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+}
+
+.cocktail-create-input {
+    width: 500px;
+}
+
+.cocktail-create-footer {
+    display: flex;
+    width: 545px;
+    margin-right: 48px;
+    justify-content: end;
+}
